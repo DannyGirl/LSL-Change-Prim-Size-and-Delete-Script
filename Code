@@ -1,0 +1,8 @@
+default
+{
+    state_entry()
+    {
+        llSetScale(<0.25, 0.25, 0.25>);
+        llRemoveInventory(llGetScriptName());
+    }
+}
